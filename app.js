@@ -18,6 +18,7 @@ $(function () {
 
     $('.clear').click(function () {
         $(this).closest('li').remove();
+        console.log('clear!');
     });
 
 });
