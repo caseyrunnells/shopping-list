@@ -17,7 +17,7 @@ $(function () {
     });
 
     $('.clear').click(function () {
-        $(this).closest('.li').remove();
+        $(this).closest('li').remove();
     });
 
 });
