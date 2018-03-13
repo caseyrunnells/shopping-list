@@ -8,7 +8,7 @@ $(function () {
         function addItem(message) {
             items += 1;
 
-            return "<li class='li'><p class='list-item'><label for='checkbox-" + items + "'><input class='checkbox' type='checkbox' id='checkbox-" + items + "'/><span>" + message + "</span></label><button class='mdl-button mdl-js-button mdl-button--icon clear'><i class='material-icons'>clear</i></button></p></li>";
+            return "<li><p class='list-item'><label for='checkbox-" + items + "'><input class='checkbox' type='checkbox' id='checkbox-" + items + "'/><span>" + message + "</span></label></p></li>";
         }
     });
 
@@ -17,7 +17,7 @@ $(function () {
     });
 });
 
-$('.clear').click(function () {
-    $(this).closest('li').remove();
+$('.clear-all').click(function () {
+    $('.clear').closest('li').remove();
     console.log('clear!');
 });
