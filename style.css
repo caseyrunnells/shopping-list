@@ -1,0 +1,95 @@
+/* HEADER
+*/
+
+.masthead {
+    background-color: rgb(0,188,212);
+    padding-bottom: 1%;
+    min-height: 75px;
+    box-shadow: 0 .5px #9B9B9B;
+  }
+
+/* MAIN
+*/
+
+.input, 
+.list {
+      max-width: 70vh;
+      margin: 0 auto;
+      position: relative;
+}
+.masthead h1{
+    text-align: center;
+    color: #fff;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-shadow: 0 0 #000;
+}
+#target {
+    float: left;
+    width: 80%;
+    margin: 1%;
+}
+#submit {
+    position: absolute;
+    right: 0;
+    margin: 10px 15px 0 0;
+}
+.input {
+    min-height: 75px;
+    box-shadow: 0 0 #9B9B9B;
+}
+.checkbox {
+    margin: 10px;
+    display: inline-block;
+}
+.crossedOut {
+    text-decoration: line-through;
+    text-decoration: line-through;
+    color: #8c8c8c;
+}
+.list > ul {
+      padding: 0;
+      list-style-type: none;
+}
+.list > ul > li {
+    list-style: none;
+    padding: 1%;
+    min-height: 75px;
+    box-shadow: 0px 0px #9B9B9B;  
+}
+.list-item {
+    text-align: justify;
+    max-width: 70%;
+    font-size: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-top: 2px;
+}
+.check {
+    color: #cfcfcf;
+}
+.fa-check-circle-o {
+    color: #cfcfcf
+}
+.clear {
+    position: absolute;
+    right: 25px;
+    color: #cfcfcf;
+}
+
+/* FOOTER
+*/
+
+footer {
+    height: 200px;
+}
+.footer {
+    padding-top: 75px;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.mdl-checkbox__label {
+    font-size: 25px;
+}
+
+  
+  
+  
