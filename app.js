@@ -5,11 +5,6 @@ $(function () {
 
         $('#messagebox').prepend(addItem(message));
 
-        $('.clear').click(function () {
-            items -= 1;
-            $(this).closest('.li').remove();
-        });
-
         function addItem(message) {
             items += 1;
 
@@ -19,6 +14,11 @@ $(function () {
 
     $('.checkbox').click(function () {
         $(this).next().toggleClass("crossedOut");
+    });
+
+    $('.clear').click(function () {
+        items -= 1;
+        $(this).closest('.li').remove();
     });
 
 });
