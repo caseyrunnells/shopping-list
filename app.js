@@ -15,12 +15,9 @@ $(function () {
     $('.checkbox').click(function () {
         $(this).next().toggleClass("crossedOut");
     });
-
-    $('.clear').click(function () {
-        $(this).closest('li').remove();
-        console.log('clear!');
-    });
-
 });
 
-
+$('.clear').click(function () {
+    $(this).closest('li').remove();
+    console.log('clear!');
+});
