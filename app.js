@@ -17,7 +17,6 @@ $(function () {
     });
 
     $('.clear').click(function () {
-        items -= 1;
         $(this).closest('.li').remove();
     });
 
